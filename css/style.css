@@ -118,7 +118,7 @@ footer
 {
     width:100%;
     background-color:hsl(243, 87%, 12%);
-    border:1px solid red;
+   /*border:1px solid red;*/
 }
 
 .linkcat
