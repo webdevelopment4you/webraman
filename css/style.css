@@ -1,0 +1,257 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+}
+.bg
+{
+    background-image: url("https://images.unsplash.com/photo-1588526432207-f1b911983934?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600");
+    height: 50%;
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1;
+}
+
+.background
+{
+    background-image: url("../images/");
+    height: 50%;
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1;
+}
+
+.hdrName
+{
+    position: absolute;
+    text-align: center;
+    width:100%;
+    top:50%;
+    z-index:3
+}
+
+.hdrName span
+{
+    font-size: 300%;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-default
+{
+background-image: linear-gradient(to bottom,#ffffff 0,#ffffff 100%);
+border:none;
+box-shadow: none;
+margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a 
+{
+background-image: linear-gradient(to right,hsl(136, 65%, 51%) 0,hsl(192, 70%, 51%) 100%);
+color:#ffffff;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form 
+{
+    text-align: center;
+}
+
+#section1
+{
+    background-color: #eeeeee8f;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom:6%;
+}
+
+.bdHeading
+{
+    text-align: center;
+    font-size:300%;
+    margin-top: 0px;
+    padding-top:5%;
+}
+
+#section2
+{
+    background-color: #eeeeee5c;
+}
+
+.maps
+{
+    padding:5% 0px;
+}
+
+.gallery,.activity
+{
+transition: all 0.3s;
+margin: auto;
+}
+
+.gallery:hover,.activity:hover
+{
+opacity:0.7;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#caption1,#caption2
+{
+display: inline-block;
+font-size: 120%;
+margin-left:18%;
+color:#000000;
+text-decoration: none;
+width: 100%;
+margin: auto;
+text-align: center;
+}
+
+footer
+{
+    width:100%;
+    background-color:hsl(243, 87%, 12%);
+    border:1px solid red;
+}
+
+.linkcat
+{
+    color:#ffffff;
+}
+.linkcat:hover
+{
+    color:hsl(136, 65%, 51%);
+    text-decoration: none;
+}
+
+#email
+{
+    color:#ffffff;
+}
+
+/* for PC like display on ipad*/
+@media screen and (min-width:768px)
+{
+    .activityIcon
+    {
+        margin-top:-3%;
+    }
+    #mapsPara
+    {
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 300%;
+    margin-top: 24%;
+    }
+    .navbar-default
+    {
+        padding-bottom: 1%;
+    }
+    .navbar-nav {
+        margin-top: 1%;
+    }
+}
+@media screen and (max-width:767px)
+{
+    .activityIcon
+    {
+        margin-top:-8%;
+    }
+    #mapsPara
+    {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    }
+    .navbar-brand>img 
+    {
+        margin-top: -8px;
+    }
+}
+
+
+/* for mobile like display on ipad*/
+@media screen and (min-width:769px)
+{
+#firstHeading
+{
+    /* margin-top: 6%; */
+    font-size: 300%;
+}
+
+#firstPara
+{
+    margin-top: 2%;
+    font-size: 115%;
+}
+
+.rowOne
+{
+    margin-top: 5%;
+}
+.rowTwo
+{
+margin-top:10%;
+}
+.tag1
+{
+    margin-top: 15%;
+}
+.tag2
+{
+    margin-top: 18%;
+}
+.workingImg
+{
+    width:40%;
+    margin:0 auto;
+}
+.footerRow
+{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+
+}
+
+
+@media screen and (max-width:768px)
+{
+#firstHeading
+{
+text-align:center;
+}
+
+#firstPara
+{
+    text-align:center;
+    margin-top:4%
+}
+.rowOne
+{
+    margin-top: 3%;
+}
+.rowTwo
+{
+    margin-top:8%;
+}
+.footerRow
+{
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 7%;
+}
+#categoryOne
+{
+    margin-top:10%;
+}
+
+}
