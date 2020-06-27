@@ -21,3 +21,19 @@
     text-decoration: none;
 }
 
+#jumboHeading
+{
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+@keyframes move
+{
+    0%{left:-69%; opacity:0}
+    50%{opacity:0.5}
+    100%{left:0%; opacity: 1}
+}
+
